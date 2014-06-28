@@ -8,6 +8,8 @@ Solution: Visualforce and Apex
 
 As the System Administrator, I wanted to provide authorized users a way to manage queue assignments without necessarily granting them more platform access than necessary. Secondly, I wanted to provide a basic export to excel of queue members. To accomplish these goals, I created some visualforce pages and apex controller.
 
+![screenshot](/images/screenshot.png)
+
 Deployment: How To
 ==================
 
