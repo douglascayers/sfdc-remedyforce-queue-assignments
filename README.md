@@ -1,8 +1,3 @@
-Easy Queue Member Assignments with Visualforce
-==============================================
-
-Simple visualforce page for maintaining queue member assignments and exporting users to Excel.
-
 Overview
 ========
 
