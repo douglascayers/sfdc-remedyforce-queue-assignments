@@ -10,5 +10,9 @@
         <members>BMCRF_Queue_Member_Excel_Page</members>
         <name>ApexPage</name>
     </types>
+    <types>
+    	<members>BMCRF_Queue_Members</members>
+    	<members>CustomTab</members>
+    </types>
     <version>30.0</version>
 </Package>
