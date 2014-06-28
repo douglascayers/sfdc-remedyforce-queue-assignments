@@ -8,12 +8,16 @@ Solution: Visualforce and Apex
 
 As the System Administrator, I wanted to provide authorized users a way to manage queue assignments without necessarily granting them more platform access than necessary. Secondly, I wanted to provide a basic export to excel of queue members. To accomplish these goals, I created some visualforce pages and apex controller.
 
+Simply choose a queue then add or remove users as needed. To export group to Excel click the Export Details button.
+
 ![screenshot](/images/screenshot.png)
 
 Deployment: How To
 ==================
 
 To simplify deployment of this custom code to your org, you may use the [github deploy tool](http://andyinthecloud.com/2013/09/24/deploy-direct-from-github-to-salesforce/) developed by [Andy Fawcett](https://twitter.com/andyinthecloud).
+
+Once deployed, you will need to grant users access to the pages, classes, and custom tab as well as add the tab to an app if you want it to always show on the menu bar.
 
 To deploy in your **sandbox**:
 https://githubsfdeploy-sandbox.herokuapp.com/app/githubdeploy/douglascayers/sfdc-remedyforce-queue-assignments
